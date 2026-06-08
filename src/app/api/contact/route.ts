@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import ContactFormEmail from '@/emails/ContactFormEmail';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const destinationEmail = process.env.CONTACT_FORM_DESTINATION_EMAIL || 'onboarding@resend.dev';
-
 export async function POST(req: Request) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY || 're_dummy_key_for_build');
+    const destinationEmail = process.env.CONTACT_FORM_DESTINATION_EMAIL || 'onboarding@resend.dev';
+    
     const body = await req.json();
     const { name, email, phone, service, message } = body;
 
