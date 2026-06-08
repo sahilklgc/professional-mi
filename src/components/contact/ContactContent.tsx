@@ -33,7 +33,7 @@ export function ContactContent() {
               <span className="text-sm font-bold tracking-widest uppercase text-slate-300">Get In Touch</span>
             </motion.div>
             <motion.h1 variants={fadeUp} className="text-5xl sm:text-7xl font-extrabold text-white tracking-tighter leading-[1.1]">
-              Let's Build <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Together.</span>
+              Let&apos;s Build <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Together.</span>
             </motion.h1>
             <motion.p variants={fadeUp} className="text-xl text-slate-400 font-light leading-relaxed">
               Reach out to our executive team to discuss your next infrastructure project, facility management needs, or industrial requirements.

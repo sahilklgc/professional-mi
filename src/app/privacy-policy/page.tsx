@@ -155,7 +155,7 @@ export default function PrivacyPolicyPage() {
         </ul>
         <p>Categories of personal information we collect from California residents are described in Section 2. To submit a verifiable consumer request, use our Contact Us page and identify your request as a California privacy rights request. We will respond within 45 days as required by law.</p>
 
-        <h2 className="text-2xl font-bold text-slate-900 pt-6">13. Children's Privacy</h2>
+        <h2 className="text-2xl font-bold text-slate-900 pt-6">13. Children&apos;s Privacy</h2>
         <p>The Site is intended for general audiences and is not directed to children. We do not knowingly collect personal information from:</p>
         <ul className="list-disc pl-6 space-y-2">
           <li>Children under 13 years of age (COPPA, United States)</li>

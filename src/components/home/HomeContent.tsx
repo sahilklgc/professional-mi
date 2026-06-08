@@ -237,7 +237,7 @@ export function HomeContent() {
                 Built on Trust. <br/> Driven by Results.
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                At PCCI, we don't just build structures; we build trust. Our holistic approach integrates cutting-edge project management with rigorous safety protocols to deliver outstanding results every time.
+                At PCCI, we don&apos;t just build structures; we build trust. Our holistic approach integrates cutting-edge project management with rigorous safety protocols to deliver outstanding results every time.
               </p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 pt-4">
                 {features.map((feature, i) => (

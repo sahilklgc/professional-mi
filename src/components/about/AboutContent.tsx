@@ -140,7 +140,7 @@ export function AboutContent() {
             className="max-w-4xl mx-auto text-center mb-24"
           >
             <motion.h2 variants={fadeUp} className="text-4xl md:text-5xl lg:text-7xl font-black tracking-tight leading-tight mb-8">
-              We don't just execute projects.<br />
+              We don&apos;t just execute projects.<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-500">We engineer partnerships.</span>
             </motion.h2>
             <motion.p variants={fadeUp} className="text-xl md:text-2xl text-slate-500 font-light leading-relaxed">
